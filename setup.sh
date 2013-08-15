@@ -7,7 +7,7 @@ sudo apt-get update
 sudo apt-get install -y python-software-properties python g++ make
 
 # Install node & npm
-sudo apt-add-repository ppa:chris-lea/node.js
+sudo apt-add-repository -y ppa:chris-lea/node.js
 sudo apt-get update
 sudo apt-get install -y nodejs
 
